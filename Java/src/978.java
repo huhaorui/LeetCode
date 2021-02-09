@@ -1,7 +1,7 @@
-class Solution {
+class Solution_978 {
     public static void main(String[] args) {
         int[] array = {0, 0, 0};
-        Solution solution = new Solution();
+        Solution_978 solution = new Solution_978();
         System.out.println(solution.maxTurbulenceSize(array));
     }
 
