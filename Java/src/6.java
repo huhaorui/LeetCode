@@ -36,7 +36,7 @@ class Solution_6 {
             stringBuilders[numRows - 1 - Math.abs(i % div - (numRows - 1))].append(s.charAt(i));
         }
         StringBuilder ans = new StringBuilder();
-        Arrays.stream(stringBuilders).forEach(stringBuilder -> ans.append(stringBuilder.toString()));
+        Arrays.stream(stringBuilders).forEach(ans::append);
         return ans.toString();
     }
 }
