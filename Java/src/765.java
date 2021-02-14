@@ -1,7 +1,7 @@
-class Solution {
+class Solution_765 {
     public static void main(String[] args) {
         int[] row = new int[]{3, 0, 1, 4, 2, 5};
-        System.out.println(new Solution().minSwapsCouples(row));
+        System.out.println(new Solution_765().minSwapsCouples(row));
     }
 
     public int minSwapsCouples(int[] row) {
