@@ -1,4 +1,4 @@
-class Solution {
+class Solution_62 {
     public int uniquePaths(int m, int n) {
         int[][] DP = new int[m][n];
         for (int i = 0; i < n; i++) {
