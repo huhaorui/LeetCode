@@ -1,9 +1,9 @@
 import java.util.PriorityQueue;
 
-class Solution {
+class Solution_1438 {
     public static void main(String[] args) {
         int[] nums = new int[]{4, 2, 2, 2, 4, 4, 2, 2};
-        System.out.println(new Solution().longestSubarray(nums, 0));
+        System.out.println(new Solution_1438().longestSubarray(nums, 0));
     }
 
     public int longestSubarray(int[] nums, int limit) {
