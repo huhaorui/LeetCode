@@ -3,11 +3,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Solution {
+class Solution_1178 {
     public static void main(String[] args) {
         String[] words = new String[]{"aaaa", "asas", "able", "ability", "actt", "actor", "access"};
         String[] puzzles = new String[]{"aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"};
-        System.out.println(new Solution().findNumOfValidWords(words, puzzles));
+        System.out.println(new Solution_1178().findNumOfValidWords(words, puzzles));
     }
 
     public List<Integer> findNumOfValidWords(String[] words, String[] puzzles) {
