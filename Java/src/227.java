@@ -1,8 +1,8 @@
 import java.util.Stack;
 
-class Solution {
+class Solution_227 {
     public static void main(String[] args) {
-        System.out.println(new Solution().calculate("1+2+3+4*78"));
+        System.out.println(new Solution_227().calculate("1+2+3+4*78"));
     }
 
     void operate(Stack<Integer> input, int num, char sign) {
