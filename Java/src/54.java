@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution_54 {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{{1}, {2}};
-        System.out.println(new Solution().spiralOrder(matrix));
+        System.out.println(new Solution_54().spiralOrder(matrix));
     }
 
     public List<Integer> spiralOrder(int[][] matrix) {
