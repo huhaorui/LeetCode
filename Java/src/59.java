@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 class Solution_59 {
     public static void main(String[] args) {
-        System.out.println(Arrays.deepToString(new Solution_59().generateMatrix(10)));
+        System.out.println(Arrays.deepToString(new Solution_59().generateMatrix(1000)));
     }
 
     public int[][] generateMatrix(int n) {
