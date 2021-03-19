@@ -9,7 +9,7 @@ class Solution_331 {
             }
             if (preorder.charAt(i) == ',') {
                 i++;
-            } else if (preorder.charAt(i) == '#'){
+            } else if (preorder.charAt(i) == '#') {
                 slots--;
                 i++;
             } else {

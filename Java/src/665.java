@@ -32,9 +32,7 @@ class Solution_665 {
         if (nums.get(leftPtr) <= nums.get(rightPtr + 1)) { //修改中间数字
             return true;
         }
-        if (nums.get(leftPtr) <= nums.get(rightPtr) && nums.get(leftPtr) <= nums.get(rightPtr + 1)) {//修改右边数字
-            return true;
-        }
-        return false;
+        //修改右边数字
+        return nums.get(leftPtr) <= nums.get(rightPtr) && nums.get(leftPtr) <= nums.get(rightPtr + 1);
     }
 }
