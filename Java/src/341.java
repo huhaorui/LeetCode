@@ -34,7 +34,7 @@ interface NestedInteger {
     public List<NestedInteger> getList();
 }
 
-public class NestedIterator implements Iterator<Integer> {
+class NestedIterator implements Iterator<Integer> {
     ArrayList<Integer> nums = new ArrayList<>();
     int ptr = 0;
 
@@ -54,7 +54,7 @@ public class NestedIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        return nums.get(++ptr);
+        return nums.get(ptr++);
     }
 
     @Override
