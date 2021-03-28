@@ -20,7 +20,13 @@ public class Netease_1 {
             System.out.println("[]");
             return;
         }
-        List<Integer> nums = Arrays.stream(input.split(",")).map(it -> it.replace("[", "").replace("]", "").replace("null", "100000")).map(Integer::parseInt).collect(Collectors.toList());
+        List<Integer> nums = Arrays.stream(input.split(","))
+                .map(it -> it.replace("[", "")
+                        .replace("]", "")
+                        .replace("null", "100000")
+                )
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
         List<Integer> path = new ArrayList<>();
         path.add(nums.get(0));
         search(nums, 0, nums.get(0), toGet, path);
