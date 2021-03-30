@@ -10,11 +10,11 @@ package leetcode;
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution_61 {
     public static void main(String[] args) {
         ListNode head = new ListNode(0);
         head.next = new ListNode(1);
-        System.out.println(new Solution().rotateRight(head, 1));
+        System.out.println(new Solution_61().rotateRight(head, 1));
     }
 
     public ListNode rotateRight(ListNode head, int k) {
