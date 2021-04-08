@@ -2,8 +2,8 @@ package leetcode;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution_81 {
     public boolean search(int[] nums, int target) {
-        return Arrays.stream(nums).filter(it -> it == target).count() >= 1;
+        return Arrays.stream(nums).parallel().filter(it -> it == target).count() >= 1;
     }
 }
