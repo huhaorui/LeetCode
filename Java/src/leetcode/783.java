@@ -17,7 +17,6 @@ class Solution_783 {
         min = Math.min(min, Math.abs(n - prev));
         prev = n;
     }
-
     void traverse(TreeNode node) {
         if (node.left != null) {
             traverse(node.left);
@@ -30,6 +29,5 @@ class Solution_783 {
 
     public int minDiffInBST(TreeNode root) {
         traverse(root);
-        return min;
-    }
+        return min; }
 }

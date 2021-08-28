@@ -9,7 +9,6 @@ class Solution_131 {
     String input;
     List<List<String>> ans = new ArrayList<>();
     List<String> chars = new ArrayList<>();
-
     public int isPalindrome(int i, int j) {
         if (find[i][j] != 0) {
             return find[i][j];
